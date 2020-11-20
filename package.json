@@ -35,7 +35,7 @@
     "utils": "yarn workspace utils",
     "clean": "yarn clean-dist && rimraf node_modules && lerna clean",
     "clean-dist": "lerna exec -- rimraf dist tsconfig.tsbuildinfo",
-    "dev": "lerna run develop --parallel --scope utils --scope core --scope flow-nodes --scope flow-cli --scope flow-components",
+    "dev": "lerna run develop --parallel --scope components --scope app2",
     "test": "yarn flow-cli test"
   }
 }
