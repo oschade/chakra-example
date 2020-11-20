@@ -1,7 +1,0 @@
-{
-  "extends": "eslint-config-honeyport",
-  "rules": {
-    "strict": ["error", "never"]
-  },
-  "root": true
-}
